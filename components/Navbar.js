@@ -77,10 +77,10 @@ const Navbar = props => {
                     : "text-gray-800 hover:text-gray-600") +
                   " mx-3 my-4 lg:my-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="https://www.linkedin.com/in/jake-keay-a42970206/"
               >
                 <i className="text-blue-400 hover:text-blue-200 mouse transition ease-in duration-200 fab fa-linkedin text-lg leading-lg" />
-                <span className="lg:hidden inline-block ml-2">Profile</span>
+                <span className="lg:hidden inline-block ml-2">Connect</span>
               </a>
             </li>
           </ul>

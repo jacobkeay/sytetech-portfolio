@@ -125,7 +125,7 @@ const Contact = () => {
 
                 <a
                   className=" mx-3 my-4 lg:my-2 flex items-center"
-                  href="#pablo"
+                  href="https://www.linkedin.com/in/jake-keay-a42970206/"
                 >
                   <i className="text-blue-400 hover:text-blue-500 mouse transition ease-in duration-200 fab fa-linkedin text-x leading-lg" />
                 </a>
