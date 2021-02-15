@@ -5,11 +5,11 @@ const Testimonials = () => {
     <div className="container mx-auto px-4">
       <div className="flex flex-col justify-center items-center text-center my-10">
         <h1 className="font-semibold text-4xl pt-10 pb-2">
-          But don't just take my word for it.
+          But don't just take our word for it.
         </h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 pt-4">
-          Take a look at what my clients have to say. I've linked their websites
-          too. Check them out!
+          Take a look at what our clients have to say. We've linked their
+          websites too. Check them out!
         </p>
       </div>
       <div className="flex flex-wrap justify-center">

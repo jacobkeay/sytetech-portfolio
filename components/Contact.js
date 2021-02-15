@@ -34,7 +34,7 @@ const Contact = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Need a new website? Ecommerce platform? Got a brilliant idea for a
-            new app? I can help.
+            new app? We can help.
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">

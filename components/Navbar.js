@@ -13,7 +13,7 @@ const Navbar = props => {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " title-lg font-bold leading-relaxed inline-block mr-4 ml-3 py-2 whitespace-no-wrap uppercase"
               }
-              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+              href="#"
             >
               SyteTech Web Solutions
             </a>
