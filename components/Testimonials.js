@@ -13,19 +13,19 @@ const Testimonials = () => {
         </p>
       </div>
       <div className="flex flex-wrap justify-center">
-        <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-          <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-            <div class="px-4 py-5 mt-2 flex-auto">
-              <h6 class="text-xl font-semibold">
-                <i class="fas fa-quote-left"></i> SyteTech provided us with an
-                excellent website. Insert more good stuff about them here.{" "}
-                <i class="fas fa-quote-right"></i>
+        <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+            <div className="px-4 py-5 mt-2 flex-auto">
+              <h6 className="text-xl font-semibold">
+                <i className="fas fa-quote-left"></i> SyteTech provided us with
+                an excellent website. Insert more good stuff about them here.{" "}
+                <i className="fas fa-quote-right"></i>
               </h6>
-              <p class="mt-5 text-gray-600">York Student Think Tank</p>
+              <p className="mt-5 text-gray-600">York Student Think Tank</p>
               <a
                 href="https://ystt.co.uk"
                 target="_blank"
-                class="mt-2 mb-4 text-blue-400"
+                className="mt-2 mb-4 text-blue-400"
               >
                 ystt.co.uk
               </a>

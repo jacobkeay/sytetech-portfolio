@@ -1,30 +1,28 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
+import SuccessPopup from "./SuccessPopup";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [displaySuccess, setDisplaySuccess] = useState(false);
 
   const sendEmail = async e => {
     e.preventDefault();
+    setLoading(true);
 
-    const res = await emailjs
-      .sendForm(
-        "service_ntj0wtd",
-        "template_ci7m2ch",
-        e.target,
-        "user_3Etx9OY4qzJzn1mP5JhAM"
-      )
-      .then(
-        result => {
-          console.log(result.text);
-        },
-        error => {
-          console.log(error.text);
-        }
-      );
+    const res = await emailjs.sendForm(
+      "service_ntj0wtd",
+      "template_ci7m2ch",
+      e.target,
+      "user_3Etx9OY4qzJzn1mP5JhAM"
+    );
+    console.log(res);
     e.target.reset();
+    setLoading(false);
+    setDisplaySuccess(true);
+    setTimeout(() => {
+      setDisplaySuccess(false);
+    }, 5000);
   };
 
   return (
@@ -91,11 +89,14 @@ const Contact = () => {
             <div className="p-2 w-full text-center">
               <button
                 type="submit"
-                className="mx-auto text-white bg-blue-400 border-0 py-2 px-8 focus:outline-none hover:bg-blue-500 transition ease-in duration-200 rounded text-lg"
+                className={`mx-auto text-white bg-blue-400 border-0 py-2 px-8 focus:outline-none hover:bg-blue-500 transition ease-in duration-200 rounded text-lg ${
+                  loading ? "cursor-not-allowed" : null
+                }`}
               >
-                <i className="fas fa-envelope-open"></i> Send
+                {loading ? "Sending..." : "Send"}
               </button>
             </div>
+            {displaySuccess ? <SuccessPopup /> : null}
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-400 text-center">
               <a className="">jake.keay@sytetech.co.uk | +44 1684 363773</a>
               <p className="leading-normal my-5">
