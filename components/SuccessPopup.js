@@ -19,7 +19,7 @@ const SuccessPopup = () => {
             Sent
           </span>
           <p class="text-sm text-gray-600 dark:text-gray-200">
-            I'll get back to you soon!
+            We'll get back to you soon!
           </p>
         </div>
       </div>
