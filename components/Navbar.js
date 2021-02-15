@@ -7,7 +7,7 @@ const Navbar = props => {
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex items-center justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <div className="flex items-center">
-            <img src="logo-dot.png" alt="SyteTech " />
+            <img src="logo-dot-blue-sm.png" alt="SyteTech " />
             <a
               className={
                 (props.transparent ? "text-white" : "text-gray-800") +

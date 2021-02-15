@@ -4,11 +4,12 @@ import Navbar from "./Navbar";
 const Layout = props => (
   <div>
     <Head>
+      <title>SyteTech Web Solutions</title>
       <meta
         name="description"
         content="Apps, websites, and SEO for small businesses and entrepreneurs."
       />
-      <link rel="shortcut icon" href="/logo-dot.png" />
+      <link rel="shortcut icon" href="/logo-dot-blue-sm.png" />
     </Head>
     <Navbar transparent={true} />
     {props.children}

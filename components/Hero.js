@@ -1,8 +1,12 @@
 import React from "react";
+import ScrollButton from "./ScrollButton";
 
 const Hero = () => {
   return (
-    <div className="relative pt-16 pb-32 flex content-center items-center justify-center div-hero-height">
+    <div
+      id="hero"
+      className="relative pt-16 pb-32 flex content-center items-center justify-center div-hero-height shadow-xl"
+    >
       <div className="absolute top-0 w-full h-full bg-top bg-cover bg-hero">
         <span
           id="blackOverlay"
@@ -16,18 +20,12 @@ const Hero = () => {
               <h1 className="text-white font-semibold text-5xl">
                 Time To <span className="text-blue-400">Level Up.</span>
               </h1>
-              <p className="mt-4 text-lg text-white">
+              <p className="mt-4 py-5 text-lg text-white">
                 The digital revolution is just getting started. Whether you want
                 to launch a new app, get more leads for your business, or
-                showcase a project, we've got you covered.
+                showcase a project, I've got you covered.
               </p>
-              <a
-                href="#"
-                className="bg-transparent hover:bg-blue-400 text-blue-400 font-semibold hover:text-white p-4 border border-blue-400 hover:border-transparent rounded inline-block mt-5 cursor-pointer mouse transition ease-in duration-200"
-              >
-                <i className="fas fa-arrow-right"></i> Book a Free Discovery
-                Call
-              </a>
+              <ScrollButton itemName={"contact"} />
             </div>
           </div>
         </div>
