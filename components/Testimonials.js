@@ -7,18 +7,23 @@ const Testimonials = () => {
         <h1 className="font-semibold text-4xl pt-10 pb-2">
           But don't just take our word for it.
         </h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 pt-4">
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 pt-4">
           Take a look at what our clients have to say. We've linked their
           websites too. Check them out!
         </p>
       </div>
       <div className="flex flex-wrap justify-center">
-        <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+        <div className="lg:pt-12 pt-6 w-full md:w-6/12 px-4 text-center">
           <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
             <div className="px-4 py-5 mt-2 flex-auto">
               <h6 className="text-xl font-semibold">
-                <i className="fas fa-quote-left"></i> SyteTech provided us with
-                an excellent website. Insert more good stuff about them here.{" "}
+                <i className="fas fa-quote-left"></i> Working with Jake has been
+                a great pleasure. He not only finishes work on time, but is
+                quick with fixes, doing most of these in his own time and way
+                before we expected him to. He goes above and beyond and I would
+                recommend him to anyone wanting not only a beautiful and
+                functional website, but a nice and kind person to walk you
+                through it and teach you to maintain it.{" "}
                 <i className="fas fa-quote-right"></i>
               </h6>
               <p className="mt-5 text-gray-600">York Student Think Tank</p>
