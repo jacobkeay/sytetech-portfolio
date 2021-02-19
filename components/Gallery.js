@@ -20,7 +20,7 @@ const Gallery = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="img_design.jpg"
+                src="design-sm.jpg"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -38,7 +38,7 @@ const Gallery = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="img_seo.jpg"
+                src="seo-sm.jpg"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -57,7 +57,7 @@ const Gallery = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="img_media.jpg"
+                src="media-sm.jpg"
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
