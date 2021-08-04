@@ -23,7 +23,7 @@ const Hero = () => {
               <p className="mt-4 py-5 text-lg text-white">
                 The digital revolution is just getting started. Whether you want
                 to launch a new app, get more leads for your business, or
-                showcase a project, we've got you covered.
+                showcase a project, I've got you covered.
               </p>
               <ScrollButton itemName={"contact"} />
             </div>
