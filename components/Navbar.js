@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Navbar = props => {
+const Navbar = (props) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
@@ -47,7 +47,7 @@ const Navbar = props => {
                     : "text-gray-800 hover:text-gray-600") +
                   " mx-3 my-4 lg:my-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="#"
               >
                 <i className="text-blue-400 hover:text-blue-200 mouse transition ease-in duration-200 fab fa-facebook-square text-lg leading-lg" />
                 <span className="lg:hidden inline-block ml-2">Share</span>
@@ -62,7 +62,7 @@ const Navbar = props => {
                     : "text-gray-800 hover:text-gray-600") +
                   " mx-3 my-4 lg:my-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#pablo"
+                href="#"
               >
                 <i className="text-blue-400 hover:text-blue-200 mouse transition ease-in duration-200 fab fa-instagram text-lg leading-lg " />
                 <span className="lg:hidden inline-block ml-2">Follow</span>

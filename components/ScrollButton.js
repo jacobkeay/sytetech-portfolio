@@ -7,7 +7,7 @@ const ScrollButton = ({ itemName }) => {
     setAnchorTarget(document.getElementById(itemName));
   }, [itemName]);
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     event.preventDefault();
     anchorTarget.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -19,7 +19,7 @@ const ScrollButton = ({ itemName }) => {
       onClick={handleClick}
       aria-label={`Scroll to ${itemName}`}
     >
-      <i className="fas fa-arrow-right"></i> Book a Free Discovery Call
+      <i className="fas fa-arrow-right"></i> Get in Touch!
     </a>
   );
 };

@@ -6,7 +6,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [displaySuccess, setDisplaySuccess] = useState(false);
 
-  const sendEmail = async e => {
+  const sendEmail = async (e) => {
     e.preventDefault();
     setLoading(true);
 
@@ -34,7 +34,7 @@ const Contact = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Need a new website? Ecommerce platform? Got a brilliant idea for a
-            new app? We can help.
+            new app? I can help.
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
